@@ -8,6 +8,6 @@ def ping(host):
     command = ['ping', param, '1', host]
     return subprocess.call(command)
 
-host = 'google.com'
+host = input('enter website:')
 
 print(ping(host))
