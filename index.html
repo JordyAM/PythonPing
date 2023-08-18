@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <py-script src="./ping.py"></py-script>
+    Enter a website to test ping: 
+    <form name="domain" action="./ping.py" method="get">
+        <input type="text" id="enter" name="pingTest">
+        <input type="submit" value="ping">
+    </form>
+</body>
+</html>
